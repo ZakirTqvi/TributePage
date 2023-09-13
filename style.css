@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    /* text-decoration: underline; */
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    height: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #151414;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    justify-content: space-around;
+}
+
+.apj-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+.container .text {
+    width: 40%;
+    height: 30%;
+    padding-top: 20px;
+}
+
+.container .text span {
+    color: rgb(131, 215, 13);
+    margin-left: 20px;
+}
+
+.biography {
+    width: 95%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #151414;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    /* text-align: center; */
+    text-align: justify;
+    /* text-justify: inter-word; */
+    
+}
+
+.awards {
+    width: 95%;
+    height: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #151414;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(59, 211, 8, 0.2);
+    width: 20%;
+    background-color: #a8a1a1;
+    color: #151414;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: 0.5s;
+  }
+
+  .card img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display:  block ;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(15, 199, 18, 0.721);
+  }
+  
+  .card-container {
+    padding: 2px 16px;
+    margin-top: 20px;
+  }
+
+  .bio-title, .title, .awards-title{
+    width: 95%;
+    height: 10%;
+    margin: 10px auto;
+    background-color: #151414;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  10px 20px;
+    border-radius: 5px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    height: 10vh;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
